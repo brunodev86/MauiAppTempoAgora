@@ -8,10 +8,11 @@
             Padding="30,0"
             Spacing="25">
 
-            <Entry x:Name="txt_cidade"/>
-            <Button Text="Buscar" Clicked="Button_Clicked"/>
+            <Entry x:Name="txt_cidade" Placeholder="Digite o nome da cidade" />
+            <Button Text="Buscar" Clicked="Button_Clicked" />
 
-            <Label x:Name="lbl_res"/>
+            <Label x:Name="lbl_res" TextColor="White" />
+            <Label x:Name="lbl_dataHora" TextColor="White" />
 
         </VerticalStackLayout>
     </ScrollView>
